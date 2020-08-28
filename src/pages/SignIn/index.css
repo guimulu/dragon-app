@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.signIn-button {
+  border-radius: 5px;
+  border-width: 0;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  background-color: white;
+  color: #0d1c2b;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
+.signIn-button:hover {
+  background-color: #bfbfbf;
+}
+
+img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 130px;
+}
+
+h3.error {
+  color: #631c1c;
+}
+
+h3.success {
+  color: #00a206;
+}

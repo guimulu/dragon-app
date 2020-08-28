@@ -1,0 +1,23 @@
+ul.details {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+  margin-top: 30px;
+}
+
+ul.details li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+ul.details li span {
+  display: flex;
+  align-items: center;
+  color: #0d1c2b;
+  font-size: 20px;
+  font-weight: noraml;
+}

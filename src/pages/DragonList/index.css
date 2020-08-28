@@ -1,0 +1,65 @@
+.container-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.addNew-button {
+  border-radius: 5px;
+  border-width: 0;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  background-color: white;
+  color: #0d1c2b;
+  padding: 10px;
+  margin-bottom: 16px;
+  align-self: center;
+}
+
+.addNew-button:hover {
+  background-color: #bfbfbf;
+}
+
+ul.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  ul.list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+li.list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.dragon-name {
+  display: block;
+  color: #0d1c2b;
+  font-size: 20px;
+  font-weight: noraml;
+  margin-right: 25px;
+}
+
+.icon {
+  margin: 4px;
+  cursor: pointer;
+  color: #0d1c2b;
+}
+
+.icon:hover {
+  color: #3f658c;
+}
